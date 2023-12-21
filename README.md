@@ -1,9 +1,17 @@
 # badsmoker
 A python micro:bit v2 project to slow down bad habbits - press the button and get a bad noise if you are doing it too often. xmas project.
 
+I am drinking beer as I write this, so do not take it seriously.  
+I need to figure out if this can be unit tested or something and i can build a proper pipeline for micropython.  
+
+# Concept for MVP
+Take in buttons, count up and down, keep a timer, show something when interacting.  
+
 # Concept for RC1:  
 
 show me if ive had my last cigarette in under 15/30 minutes  
+
+timers (beeps, waits, buttons, flashes) should be variables in case they are annoying.  
 
 levels of bad - denoted by noise and flashing entire screen  
 - \>45 minutes, good (center flash twice full bright) (two short hight beeps)  
